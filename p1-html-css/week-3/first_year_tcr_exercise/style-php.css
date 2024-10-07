@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+ .highlight{
+  color: rgba(95, 115, 195, 0.408);
+ }
+ header {
+  display: flex;
+  justify-content: center;
+align-items: center;
+height: 15vh;
+text-align: center;
+}
+h1{
+  font-size: 4.5rem;
+  text-align: center;
+}
+.nav {
+  position: absolute;
+  top: 720px;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+.footer{
+  position: absolute;
+  right: 600px;
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
+.paragr{
+  position: absolute;
+ right: 300px;
+  text-align: center;
+  top: 340px;
+  font-size: medium;
+}
+h2{
+    position: absolute;
+   right: 600px;
+    text-align: center;
+    top: 300px;
+    font-size: 2.5rem;
+  }

@@ -40,7 +40,7 @@
   }
   header {
     position: absolute;
-    left: 550px;
+    left: 630px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@
     color: white;
   }
   .highlight{
-    color: yellow;
+    color: orange;
   }
   p{
     position: absolute;
@@ -80,7 +80,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 185px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0: auto;
   }
   .text{
@@ -88,7 +88,7 @@
   }
 .img{  
   height: 250px;
-  width: 250px;
+  width: 400px;
   margin-left: 50px;
 }
 .nav {
