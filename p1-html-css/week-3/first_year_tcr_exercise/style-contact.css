@@ -38,6 +38,7 @@
   nav img {
     width: 5vw;
   }
+  
   header {
     display: flex;
     justify-content: center;
@@ -50,11 +51,55 @@
     color: black;
   }
 h2{
-  font-size: 3.0rem;
+  font-size: 3.5rem;
   color: black;
 }
-.divv{
+div{
+position: absolute;
+left: 450px;
+top: 260px;
+
+}
+.Lname{
+font-size: 2.5rem;
+width: 550px;
+}
+.Lmail{
+font-size: 2.5rem;
+width: 550px;
+}
+.Lmessage{
+font-size: 2.5rem;
+height: 100px;
+width: 550px;
+}
+
+button{
+position: absolute;
+left: 450px; 
+top: 620px; 
+color: white;
+background-color: #00a8c7;
+font-size: 2.5rem;
+width: 550px;
+}
+.nav {
   position: absolute;
-  left: 650px;
-  font-size: 1.5rem;
+  top: 720px;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+.footer{
+  position: absolute;
+  right: 600px;
+  color: white;
+  font-size: medium;
+  text-align: center;
 }
