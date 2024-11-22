@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+   <header><h1>Boekingsformulier</h1></header>
+    <form action="Submit boeking">
+    
+        <!-- // Firstname -->
+<label for="lfirstname">Voornaam</label> <br>
+<input type="text" id="lFirstname" name="lFirstname" pattern="[A-Z-a-z]" title="Geen cijfers toegestaan"> <br> <br>
+
+        <!-- //Lastname -->
+<label for="lLastname">Achternaam</label> <br>
+<input type="text" name="lLastname" id="lLastname" pattern="[A-Z-a-z]" title="Geen cijfers toegestaan"> <br> <br>
+
+        <!-- //gender  -->
+<p> Choose your gender:</p>
+<input type="radio" name="gender" id="Male" value="Male" checked>
+<label for="Male">Male</label>
+
+<input type="radio" name="gender" id="Female" value="Female" >
+<label for="Female">Female</label> <br> <br> 
+
+         <!-- //Street  -->
+<label for="lstreet">Straat met huisnummer</label> <br>
+<input type="text" name="lstreet" id="lstreet" required> <br> <br>
+
+         <!-- //Zipcode  -->
+<label for="lzipcode">Postcode</label> <br>
+<input type="text" id="lzipcode" name="lzipcode" required> <br> <br>
+
+          <!-- //City -->
+<label for="lcity">Stad</label> <br>
+<input type="text" id="lcity" name="lcity" required> <br> <br>
+
+          <!-- //Land -->
+<label for="lland">Land</label> <br>
+<input type="text" name="lland" id="lland" required> <br> <br>
+
+           <!-- //BSN -->
+<label for="lbsn">BSN-nummer</label> <br>
+<input type="number" name="lbsn" id="lbsn" pattern="\d{1-9}" title="Max 9 cijfers" required> <br> <br>
+
+           <!-- //Vacation -->
+<label for="lvacation">Vakantieland</label> <br>
+<select id="lvacation" name="lvakantie"  required>
+    <option value="Turkije">Turkije</option>
+    <option value="Duitsland">Duitsland</option>
+    <option value="Marokko">Marokko</option> </select> <br> <br>
+
+           <!-- //Departure -->
+<Label for="ldeparture">Datum van vertrek</Label> <br>
+<input type="date" name="ldeparture" id="ldeparture" min="<?= date('Y-m-d'); ?>" required min=""> <br> <br>
+
+           <!-- //Return -->
+<label for="lreturn">Datum van terugkomst</label> <br>
+<input type="date" name="lreturn" id="lreturn" min="<?= date('Y-m-d'); ?>" required> <br> <br>
+
+           <!-- //Companion -->
+<label for="lcompanion">Aantal reisgenoten</label>
+<input type="number" name="lcompanion" id="lcompanion" min="0" max="4"> <br> <br>	
+
+           <!-- //Sumbit -->
+<input type="submit" value="Boek nu"> <br> <br>
+
+            <!-- //E-mail -->
+<label for="email">E-mail</label> <br>
+<input type="email" name="email" id="email" required> <br> <br>
+
+             <!-- //Password -->
+<label for="password">Password</label> <br>
+<input type="password" name="password" id="password" required> <br> <br>
+
+</form>
+</body>

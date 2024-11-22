@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+}
+
+.logo, .login {
+    flex: 1;
+    text-align: center;
+    color: blue;
+    font-size: 1.2em;
+}
+
+.nav-links {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a, .logo a, .login a {
+    color: blue;
+    text-decoration: none;
+    font-size: 1em;
+}

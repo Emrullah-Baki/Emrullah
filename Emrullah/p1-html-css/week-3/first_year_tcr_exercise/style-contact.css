@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  height: 30vh;
+  text-align: center;
+  }
+  h1{
+    font-size: 5.5rem;
+    color: black;
+  }
+h2{
+  font-size: 3.5rem;
+  color: black;
+}
+div{
+position: absolute;
+left: 450px;
+top: 260px;
+
+}
+.Lname{
+font-size: 2.5rem;
+width: 550px;
+}
+.Lmail{
+font-size: 2.5rem;
+width: 550px;
+}
+.Lmessage{
+font-size: 2.5rem;
+height: 100px;
+width: 550px;
+}
+
+button{
+position: absolute;
+left: 450px; 
+top: 620px; 
+color: white;
+background-color: #00a8c7;
+font-size: 2.5rem;
+width: 550px;
+}
+.nav {
+  position: absolute;
+  top: 720px;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+.footer{
+  position: absolute;
+  right: 600px;
+  color: white;
+  font-size: medium;
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+  background: url(img/background.jpeg) no-repeat center center fixed;
+background-size: cover;
+color: white;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+header {
+  display: flex;
+  justify-content: center;
+align-items: center;
+height: 90vh;
+text-align: center;
+}
+h1{
+  font-size: 6.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 7);
+}
+.dropcon{
+display: none;
+position: absolute;
+background-color: white;
+box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+.dropcon a {
+color: #00a8c7;
+padding: 0.8rem 2rem;
+display: block;
+text-align: left;
+}
+.dropdown:hover .dropcon {
+  display: flex;
+  flex-direction: column;
+}
+

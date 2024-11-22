@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100vw;
+  height: 33vw;
+  background-image: url(img/background.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+    font-size: 24px;
+    color: blue;
+  font-style: italic;
+  font-weight: bolder;
+  
+}
+h2{
+    font-size: 20px;
+    color: #0000ff;
+  font-weight: bolder;
+}
+  h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: bolder;
+  }
+  p{
+    color: #4d4d4d;
+  }
+  .paragraaf{
+    font-weight: bolder;
+    color: white;
+  }
+  a{
+    color: #8A2BE2;
+    text-decoration: none;
+  }
+  img{
+    width: 50vw;
+  }
+  article{
+    border: 2px solid rgb(13, 0, 255);
+    border-radius: 5px;
+    border-left-style: double;
+  }
