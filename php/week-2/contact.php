@@ -9,9 +9,16 @@
     
 <?php include 'navbar.php'?>
 
-    <h1>mijn email is ermullah.baki.semih@gmail.com <br>
-        mijn nummer is 0634246253
-    </h1>
+<label for="Lname">Voornaam</label> <br>
+<input type="text" id="Lname" name="Lname" pattern="[A-Z-a-z]" title="Geen cijfers toegestaan"> <br><br>
+
+<label for="Lmail">E-mail</label> <br>
+<input type="text" id="Lmail" name="Lmail"> <br><br>
+
+<label for="Lmessage">Bericht</label> <br>
+<input type="text" id="Lmessage" name="Lmessage"> <br><br>
+
+<button>Verzenden</button>
 
 <?php include 'footer.php'?>
 
