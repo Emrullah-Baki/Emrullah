@@ -9,6 +9,7 @@
     
 <?php include 'navbar.php'?>
 
+<form>
 <label for="Lname">Voornaam</label> <br>
 <input type="text" id="Lname" name="Lname" pattern="[A-Z-a-z]" title="Geen cijfers toegestaan"> <br><br>
 
@@ -18,7 +19,8 @@
 <label for="Lmessage">Bericht</label> <br>
 <input type="text" id="Lmessage" name="Lmessage"> <br><br>
 
-<button>Verzenden</button>
+<input type="submit" name="Lsumbit" value="verzend">
+</form>
 
 <?php include 'footer.php'?>
 
