@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>BANKAI - zanka no tachi</h1>
+    <h1>PHP test</h1>
 
-    <?php echo "BANKAI - senbonzakura kageyoshi" ?>
+    <?php echo "hello world" ?>
     
 </body>
 </html>
